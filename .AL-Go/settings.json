@@ -10,5 +10,6 @@
 
                    ],
     "country":  "us",
-    "RepoVersion":  "2.0"
+    "RepoVersion":  "2.0",
+    "versioningStrategy":  16
 }
