@@ -9,5 +9,6 @@
     "appFolders":  [
 
                    ],
-    "country":  "us"
+    "country":  "us",
+    "RepoVersion":  "2.0"
 }
