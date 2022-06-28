@@ -1,32 +1,36 @@
 ﻿{
-    "id":  "57ee6223-ad05-47ad-9415-c0e0ed610b37",
+    "url":  "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+    "description":  "Hello World sample app for AppSource",
     "name":  "My App",
-    "publisher":  "My Publisher",
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  true,
+                                   "allowDownloadingSource":  false,
+                                   "includeSourceInSymbolFile":  false
+                               },
     "version":  "1.0.0.0",
-    "brief":  "",
-    "description":  "",
-    "privacyStatement":  "",
-    "EULA":  "",
-    "help":  "",
-    "url":  "",
-    "logo":  "",
-    "dependencies":  [
-
-                     ],
-    "screenshots":  [
-
-                    ],
-    "platform":  "1.0.0.0",
-    "application":  "19.0.0.0",
+    "brief":  "Hello World for AppSource",
+    "logo":  "helloworld256x240.png",
     "idRanges":  [
                      {
                          "from":  75055000,
                          "to":  75056000
                      }
                  ],
-    "resourceExposurePolicy":  {
-                                   "allowDebugging":  true,
-                                   "allowDownloadingSource":  false,
-                                   "includeSourceInSymbolFile":  false
-                               }
+    "id":  "57ee6223-ad05-47ad-9415-c0e0ed610b37",
+    "contextSensitiveHelpUrl":  "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+    "publisher":  "My Publisher",
+    "privacyStatement":  "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+    "help":  "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+    "platform":  "1.0.0.0",
+    "EULA":  "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+    "features":  [
+                     "TranslationFile"
+                 ],
+    "application":  "19.0.0.0",
+    "screenshots":  [
+
+                    ],
+    "dependencies":  [
+
+                     ]
 }
